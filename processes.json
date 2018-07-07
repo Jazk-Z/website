@@ -1,13 +1,13 @@
 {
   "apps": [
     {
-      "name": "app1",
-      "script": "bin/www",
+      "name": "website",
+      "script": "./server.js",
       "log_date_format": "YYYY-MM-DD HH:mm:SS",
-      "log_file": "logs/app1.log",
-      "error_file": "logs/app1-err.log",
-      "out_file": "logs/app1-out.log",
-      "pid_file": "pids/app1.pid",
+      "log_file": "logs/website.log",
+      "error_file": "logs/website-err.log",
+      "out_file": "logs/website-out.log",
+      "pid_file": "pids/website.pid",
       "instances": 1,
       "min_uptime": "200s",
       "max_restarts": 10,
